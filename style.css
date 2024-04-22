@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+@font-face {
+    font-family: 'JURKA';
+    src: url('path-to-your-font-file.woff2') format('woff2'),
+         url('path-to-your-font-file.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.main-conainar{
+
+}
+
+.first-tag{
+    color: white;
+    font-family: 'JURKA', sans-serif;
+    font-size:90px;
+    font-weight: 200;
+    margin-left: 40%;
+    margin-bottom: 100px;
+}
+
+.cad-contenar{
+    display: grid;
+    grid-template-rows: repeat(3,300px);
+    grid-template-columns: repeat(3,250px);
+   gap: 30px;
+  justify-content: center;
+ /* background-color: aqua; */
+flex-wrap: wrap;
+   
+}
+.cad-contenar div{
+   background-color: white;
+   background-color: 1px solid black;
+   justify-content: center;
+}
+ .img-1{
+    height: 50%;
+    width: 100%;
+    }
+.text1{
+position: relative;
+/* left: 60px; */
+font-size:20px;
+font-weight: 200;
+}
+
+.text{
+   margin: 5px 0px 5px 5px;
+}
+
+.tex{
+    position: relative;
+    top: 50px;
+    /* left: 30px; */
+}
+
+
+.card2 .img-2{
+    height: 50%;
+    width: 100%;
+    }
+    .text1{
+        position: relative;
+        /* left: 60px; */
+        font-size:23px;
+        font-weight: 250;
+        margin-left: 30px;
+        }
+        
+        .text{
+           margin: 5px 0px 5px 5px;
+        }
+        
+        .tex{
+            position: relative;
+            top: 50px;
+            /* left: 30px; */
+        }
+    .card3 .img-3{
+        height: 50%;
+        width: 100%;
+        }
+        .text1{
+            position: relative;
+            /* left: 60px; */
+            font-size:20px;
+            font-weight: 200;
+            }
+            
+            .text{
+               margin: 5px 0px 5px 5px;
+            }
+            
+            .tex{
+                position: relative;
+                top: 50px;
+                /* left: 30px; */
+            }
+        .card4 .img-4{
+            height: 50%;
+            width: 100%;
+            }
+            .text1{
+                position: relative;
+                /* left: 60px; */
+                font-size:20px;
+                font-weight: 200;
+                }
+                
+                .text{
+                   margin: 5px 0px 5px 5px;
+                }
+                
+                .tex{
+                    position: relative;
+                    top: 50px;
+                    /* left: 30px; */
+                }
+
+            .card5 .img-5{
+                height: 50%;
+                width: 100%;
+                }
+                .text1{
+                    position: relative;
+                    /* left: 60px; */
+                    font-size:20px;
+                    font-weight: 200;
+                    }
+                    
+                    .text{
+                       margin: 5px 0px 5px 5px;
+                    }
+                    
+                    .tex{
+                        position: relative;
+                        top: 50px;
+                        /* left: 30px; */
+                    }
+                .card6 .img-6{
+                    height: 50%;
+                    width: 100%;
+                    }
+                    .text1{
+                        position: relative;
+                        /* left: 30%; */
+                        font-size:20px;
+                        font-weight: 200;
+                        }
+                        
+                        .text{
+                           margin: 5px 0px 5px 5px;
+                        }
+                        
+                        .tex{
+                            position: relative;
+                            top: 50px;
+                            /* left: 30px; */
+                        }
